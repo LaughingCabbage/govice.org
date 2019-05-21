@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>{{ .title }}</title>
+	{{ template "header.tmpl.html" . }}
+</head>
+
+<body>
+	<div class="container">
+		{{ template "navbar.tmpl.html" . }}
+		<div class="row">
+			<div class="col">
+			</div>
+		</div>
+
+		<div class="jumbotron">
+			<div class="container justify-content-center">
+				<h1 class="display-4">Hello, world!</h1>
+				<p class="lead">This site is under construction. Check back later.</p>
+			</div>
+		</div>
+	</div>
+	{{ template "scripts.tmpl.html" . }}
+</body>
+
+</html>
